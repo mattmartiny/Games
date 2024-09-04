@@ -1,0 +1,29 @@
+.display{
+  height:8em;
+  background-color: #cccccc;
+  width:40%;
+  margin:0 auto;
+padding: 10px 1%;
+text-align:center;
+
+}
+.selection{
+  width:100%;
+
+}
+ .flip{
+display:block;
+width:15%;
+   height:40px;
+  margin:25px auto;
+}
+
+.score{
+margin:0 auto;
+  text-align:center;
+}
+.res{
+  text-align:center;
+
+
+}

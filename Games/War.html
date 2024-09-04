@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<div id="header"></div>
+<h1 style="text-align:center;">War</h1>
+<h4 style="text-align: center;">(Ace is high)</h4>
+<div class="display">
+<h2 id="text"></h2>
+  <h2 id="text2"></h2>
+</div>
+
+<div class="selection">
+  <button class="flip" id="flip" onclick="play()">Flip Card</button>
+</div>
+<br /><div class="score">
+Player Points: <span id="playerPoints"></span><br />
+Opponent Points: <span id="oppPoints"></span><br /><br />
+  <span id="played"></span>
+</div>
+<br />
+
+<br />
+<h1 class="res"><span id="result"></span></h1><br  />
+<button id="reset" onclick="reset()" style="display:none; margin:0 auto;">Reset Game</button>
+
+<div id="footer"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="../js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="../js/plugins.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/war.js"></script>
+</html>
